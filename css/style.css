@@ -1,0 +1,29 @@
+.showcase {
+	background: url('/images/showcase.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 85vh;
+}
+
+.bg-primary,
+.btn-primary {
+	background: #5344df !important;
+	border: 0;
+}
+
+.mainfooter {
+	height: 15vh;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.showcase {
+		height: 100%;
+		padding: 150px 0 !important;
+	}
+	.mainfooter {
+		height: 100%;
+		padding: 40px 0 !important;
+	}
+}
